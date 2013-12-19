@@ -8,7 +8,7 @@ QMAKE_CXXFLAGS += -std=c++0x
 QT += opengl
 DESTDIR = release
 OBJECTS_DIR = release/.obj
-TARGET = 
+TARGET = earthgen
 DEPENDPATH += . \
               source \
               source/gui \
