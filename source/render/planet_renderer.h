@@ -1,7 +1,8 @@
 #ifndef planet_renderer_h
 #define planet_renderer_h
 
-#include <QGLWidget>
+//#include <QGLWidget>
+#include <glfw3.h>
 #include "color.h"
 #include "../math/vector2.h"
 #include "../math/vector3.h"
@@ -28,7 +29,7 @@ public:
 	double scale;
 };
 
-inline void glVertex2f (const Vector2& v) {::glVertex2f(v.x(), v.y());}
+inline void glVertex2f(const Vector2& v) { ::glVertex2f(v.x(), v.y()); }
 inline void glVertex3f (const Vector3& v) {::glVertex3f(v.x(), v.y(), v.z());}
 inline void glColor3f (const Color& c) {::glColor3f(c.r(), c.g(), c.b());}
 

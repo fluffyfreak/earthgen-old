@@ -3,8 +3,8 @@
 #include "../math/vector2.h"
 #include "../math/matrix3.h"
 #include "../math/quaternion.h"
-#include "../grid/grid.h"
-#include "../terrain/terrain.h"
+#include "../planet/grid/grid.h"
+#include "../planet/terrain/terrain.h"
 #include "planet_colors.h"
 #include <cmath>
 

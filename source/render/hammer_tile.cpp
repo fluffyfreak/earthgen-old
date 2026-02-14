@@ -1,7 +1,7 @@
 #include "hammer_tile.h"
 #include "hammer_projection.h"
-#include "../grid/grid.h"
-#include "../terrain/terrain.h"
+#include "../planet/grid/grid.h"
+#include "../planet/terrain/terrain.h"
 #include "../math/matrix3.h"
 #include "../math/quaternion.h"
 

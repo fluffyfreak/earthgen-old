@@ -2,6 +2,7 @@
 #include "vector2.h"
 #include <cmath>
 #include <algorithm>
+#include <iterator>
 
 namespace earthgen {
 
