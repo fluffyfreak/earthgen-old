@@ -153,6 +153,9 @@
     <ClCompile Include="..\libs\glew\glew.c">
       <Filter>glew</Filter>
     </ClCompile>
+    <ClCompile Include="..\source\application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\shaders\colourAndLit.frag">
@@ -309,6 +312,9 @@
     </ClInclude>
     <ClInclude Include="..\libs\glew\GL\wglew.h">
       <Filter>glew</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\application.h">
+      <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
