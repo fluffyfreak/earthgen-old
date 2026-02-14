@@ -10,9 +10,18 @@ ui_*.h
 *.Release
 Makefile
 
+# Generated output / temp files
+earthgenD_x64.*
+earthgenPR_x64.*
+earthgen_x64.*
+
 # Debug and Release directories (created under Windows, not Linux)
 debug/
 release/
+vs2022/Debug/
+vs2022/PreRelease/
+vs2022/Release/
+vs2022/.vs/
 
 # .log files (usually created by QtTest - thanks to VestniK)
 *.log

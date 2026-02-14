@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\shaders">
+      <UniqueIdentifier>{d07a3304-7063-44eb-a8cf-088aebe6f822}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\shaders\terrains">
+      <UniqueIdentifier>{e6dbfc56-fdef-4599-8993-f91976ef36e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{ff989c87-2740-45c1-9a5a-74c5d26f41c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\render">
+      <UniqueIdentifier>{c3fda63a-e207-4742-b4fc-60012b307a04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\planet">
+      <UniqueIdentifier>{c96d48f2-172e-40b0-b012-69146869e615}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\planet\climate">
+      <UniqueIdentifier>{d992723e-6981-4dde-a567-0dc0f551fd78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\planet\grid">
+      <UniqueIdentifier>{d8bc12fc-85e3-47f0-ad74-e3070dfb1bc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\planet\terrain">
+      <UniqueIdentifier>{8aaf9f4f-1431-4c32-9a8b-ffc1fd71c168}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\math">
+      <UniqueIdentifier>{4ba3384d-0284-4ead-aa1b-e3674134d574}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\hash">
+      <UniqueIdentifier>{8d245a23-7017-45bb-a762-2c3cc63f02ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="glew">
+      <UniqueIdentifier>{eea9621d-e28a-4046-b17d-5c5e7de23d00}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\libs\imgui\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\imgui\imgui_tables.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\imgui\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\imgui\backends\imgui_impl_opengl3.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\imgui\backends\imgui_impl_glfw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\render\color.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\render\globe_renderer.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\render\hammer_projection.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\render\hammer_tile.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\render\map_renderer.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\render\planet_colors.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\render\planet_renderer.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\planet\climate\climate.cpp">
+      <Filter>Source Files\planet\climate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\planet\climate\climate_generation.cpp">
+      <Filter>Source Files\planet\climate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\planet\climate\climate_structs.cpp">
+      <Filter>Source Files\planet\climate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\planet\grid\corner.cpp">
+      <Filter>Source Files\planet\grid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\planet\grid\create_grid.cpp">
+      <Filter>Source Files\planet\grid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\planet\grid\edge.cpp">
+      <Filter>Source Files\planet\grid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\planet\grid\grid.cpp">
+      <Filter>Source Files\planet\grid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\planet\grid\grid_util.cpp">
+      <Filter>Source Files\planet\grid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\planet\grid\tile.cpp">
+      <Filter>Source Files\planet\grid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\planet\terrain\terrain.cpp">
+      <Filter>Source Files\planet\terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\planet\terrain\terrain_generation.cpp">
+      <Filter>Source Files\planet\terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\math\matrix2.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\math\matrix3.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\math\quaternion.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\math\trigonometry.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\math\vector2.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\math\vector3.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\hash\md5.cpp">
+      <Filter>Source Files\hash</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\glew\glew.c">
+      <Filter>glew</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\shaders\colourAndLit.frag">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="..\shaders\colourAndLit.vert">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="..\shaders\red.frag">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="..\shaders\red.vert">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="..\shaders\test.frag">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="..\shaders\test.vert">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="..\shaders\noise_lib.glsl">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="..\shaders\heightmap.frag">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="..\shaders\heightmap.vert">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="..\shaders\patch.frag">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="..\shaders\patch.vert">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="..\shaders\debugHeightmap.frag">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="..\shaders\debugHeightmap.vert">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="..\shaders\heightmap_gen.frag">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="..\shaders\heightmap_gen.vert">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="..\shaders\noise_feature_lib.glsl">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="..\shaders\terrains\TerrainHeightShaderFun.glsl">
+      <Filter>Resource Files\shaders\terrains</Filter>
+    </None>
+    <None Include="..\shaders\terrains\Warping.glsl">
+      <Filter>Resource Files\shaders\terrains</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\source\render\color.h">
+      <Filter>Source Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\render\empty_renderer.h">
+      <Filter>Source Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\render\globe_renderer.h">
+      <Filter>Source Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\render\hammer_projection.h">
+      <Filter>Source Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\render\hammer_tile.h">
+      <Filter>Source Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\render\map_renderer.h">
+      <Filter>Source Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\render\planet_colors.h">
+      <Filter>Source Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\render\planet_renderer.h">
+      <Filter>Source Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\planet\climate\climate.h">
+      <Filter>Source Files\planet\climate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\planet\climate\climate_generation.h">
+      <Filter>Source Files\planet\climate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\planet\climate\climate_parameters.h">
+      <Filter>Source Files\planet\climate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\planet\climate\climate_structs.h">
+      <Filter>Source Files\planet\climate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\planet\climate\season.h">
+      <Filter>Source Files\planet\climate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\planet\grid\corner.h">
+      <Filter>Source Files\planet\grid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\planet\grid\create_grid.h">
+      <Filter>Source Files\planet\grid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\planet\grid\edge.h">
+      <Filter>Source Files\planet\grid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\planet\grid\grid.h">
+      <Filter>Source Files\planet\grid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\planet\grid\grid_util.h">
+      <Filter>Source Files\planet\grid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\planet\grid\tile.h">
+      <Filter>Source Files\planet\grid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\planet\terrain\terrain.h">
+      <Filter>Source Files\planet\terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\planet\terrain\terrain_generation.h">
+      <Filter>Source Files\planet\terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\planet\terrain\terrain_parameters.h">
+      <Filter>Source Files\planet\terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\planet\terrain\terrain_structs.h">
+      <Filter>Source Files\planet\terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\math\math_common.h">
+      <Filter>Source Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\math\matrix2.h">
+      <Filter>Source Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\math\matrix3.h">
+      <Filter>Source Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\math\quaternion.h">
+      <Filter>Source Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\math\trigonometry.h">
+      <Filter>Source Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\math\vector2.h">
+      <Filter>Source Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\math\vector3.h">
+      <Filter>Source Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\hash\md5.h">
+      <Filter>Source Files\hash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\utils.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\glew\GL\wglew.h">
+      <Filter>glew</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
